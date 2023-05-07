@@ -1,3 +1,9 @@
+import { Card } from "../components/Card/Card";
+
 export const Users = () => {
-  return <div>Users page</div>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 };
