@@ -2,9 +2,11 @@ import css from "./Card.module.css";
 import boy from "../../css/img/boy2x.jpeg";
 import sigths from "../../css/img/picture2.png";
 import logo from "../../css/img/Logo.png";
+import { useState } from "react";
 
 export const Card = ({ users }) => {
-  console.log("Card", users);
+  const [tweets, setTweets] = useState([]);
+
   return (
     <ul className={css.list}>
       {users.map(({ id, avatar, name, followers, tweets }) => {
