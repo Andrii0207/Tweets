@@ -2,7 +2,7 @@
   "name": "tweets",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Andrii0207.github.io/tweets",
+  "homepage": "https://Andrii0207.github.io/Tweet",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
